@@ -13,7 +13,7 @@
                         Please check back later.
                         <br />
                         If you want to re-register click here : <a href="{{ route('reRegister') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">re-register</a>
-                        <form id="form-logout" action="{{ route('reRegister') }}" method="POST" style="display: none;">{{ csrf_field() }}</form>
+                        <form id="form-logout" action="{{ route('logout') }}" method="POST" style="display: none;">{{ csrf_field() }}</form>
                     </div>
                 </div>
             </div>
